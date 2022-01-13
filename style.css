@@ -9,6 +9,9 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #fff;
+  background: darkblue;
+  color: #fff;
+  font-size: 30pt;
 }
 main #title{
   white-space: pre-line;
@@ -18,8 +21,9 @@ main #title{
   width: 50px;
   height: 50px;
 }
-.inputbox #nome, #endereco{
-  width: 500px;
-  height: 20px;
-  text-align: initial;
+.inputbox{
+  float: left;
+  height: 35px;
+  width: 440px;
+  font-size: 20pt;
 }
